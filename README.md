@@ -1,2 +1,2 @@
 # Sprint1-bugisoft
-Trabajo colaborativo del grupo de bugisoft UTP programación ciclo 3 aprint 1
+Trabajo colaborativo del grupo de bugisoft UTP programación ciclo 3 sprint 1
