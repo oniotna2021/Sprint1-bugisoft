@@ -1,0 +1,164 @@
+header {
+    width:100% ;
+    height: 380px;   
+}
+
+.MenuLogo {
+    width: 100%;
+    height: 80px;
+    background-color:blue;
+    z-index: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    width: 20%;
+    height: 100%;
+    background-color:#b60428;
+    display: flex;
+    flex-direction: row;
+}
+
+.menu {
+    width: 80%;
+    height: 100%;
+    background-color: #ffcccb;
+}
+
+.texlogo{
+    padding-left: 20px;
+    padding-top: 20px;
+    text-decoration:none;
+    font-size: 40px;
+    font-family: -apple-system;
+    color: beige;
+}
+
+.imagen {
+    width: 100%;
+    height: 300px;
+    background-color:#ffaf96;
+}
+.servicios{
+    width: 100%;
+    height: 400px;
+    background-color: #c3663d;
+}
+
+.noticiascont{
+    width: 100%;
+    height: 650px;
+    background-color: #74323c;
+}
+
+.noticias{
+    width: 48%;
+    float: left;
+    background-color: antiquewhite;
+    border-style: outset;
+    margin-left:1%;
+    margin-top: 1%;
+    text-align: center;
+    border-radius: 5%;
+}
+.noticias img{
+    width: 30%;
+    border-radius: 50%;
+    border-color:black;
+    float: left;
+    margin-left: 1%;
+    margin-bottom: 3%;
+    
+}
+
+.noticias a:link, a:visited {
+    background-color: white;
+    color: black;
+    border: 2px solid saddlebrown;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 2%;
+  }
+  
+.noticias  a:hover, a:active {
+    background-color:salmon;
+  }
+
+.noticias p{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.noticias h3{
+    text-transform: uppercase;
+    color: darkslategray;
+    text-shadow: 2px 2px 5px palevioletred;
+}
+
+
+.container1 h2{
+    background-color: palevioletred;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 1%;
+}
+
+.snosotros{
+    width: 100%;
+    height: 400px;
+    background-color:#ffaf96;
+
+}
+
+ul, ol {
+    list-style:none;
+    text-transform: uppercase;
+    margin-left: 30%;
+    border-radius: 3px;   
+}
+
+.nav > li {
+    float:left;
+}
+
+.nav li a {
+    color: black;
+    text-decoration:none;
+    padding:10px 12px;
+    display:block;
+    margin-left: 10px;
+}
+
+.nav li a:hover {
+    background-color:#fea7a5; 
+    transform: scale(1.25);
+}
+
+.nav li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+}
+
+.nav li:hover > ul {
+    display:block;
+}
+
+.nav li ul li {
+    position:relative;
+}
+
+.nav li ul li ul {
+    right:-140px;
+    top:0px;
+}
+
+footer{
+    width: 100%;
+    height: 200px;    
+    background-color: #74323c;
+}
