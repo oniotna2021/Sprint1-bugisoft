@@ -23,7 +23,7 @@ header {
 .menu {
     width: 80%;
     height: 100%;
-    background-color: #ffcccb;
+    background-color: #f3dddd;
 }
 
 .texlogo{
@@ -126,7 +126,7 @@ ul, ol {
 }
 
 .nav li a {
-    color: black;
+    color: #8b001c;
     text-decoration:none;
     padding:10px 12px;
     display:block;
