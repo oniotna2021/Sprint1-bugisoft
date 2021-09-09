@@ -6,20 +6,18 @@ header {
 .MenuLogo {
     width: 100%;
     height: 80px;
+    background-color:blue;
     z-index: 5px;
     display: flex;
     flex-direction: row;
-    
 }
 
 .logo {
     width: 20%;
     height: 100%;
-    background-color:palevioletred;
+    background-color:#b60428;
     display: flex;
     flex-direction: row;
-    color: white;
-    
 }
 
 .menu {
@@ -28,20 +26,19 @@ header {
     background-color: #ffcccb;
 }
 
-.texlogo {
-    
-    padding-left: 50px;
+.texlogo{
+    padding-left: 20px;
     padding-top: 20px;
     text-decoration:none;
     font-size: 40px;
-
+    font-family: -apple-system;
+    color: beige;
 }
 
 .imagen {
     width: 100%;
     height: 300px;
-    background-color:white;
-    margin-left: 8%;
+    background-color:#ffaf96;
 }
 .servicios{
     width: 100%;
@@ -110,6 +107,13 @@ header {
     margin-top: 1%;
 }
 
+.snosotros{
+    width: 100%;
+    height: 400px;
+    background-color:#ffaf96;
+
+}
+
 ul, ol {
     list-style:none;
     text-transform: uppercase;
@@ -126,7 +130,7 @@ ul, ol {
     text-decoration:none;
     padding:10px 12px;
     display:block;
-    margin-left: 40px;
+    margin-left: 10px;
 }
 
 .nav li a:hover {
@@ -192,38 +196,4 @@ footer{
     margin-left: 20px;
 }
 
-.section-3{
-    height: 390px;
-    /*background-color:;*/
-}
-.section-text{
-    margin: 0;
-    color: #3e3e3e;
-    background: papayawhip;
-    font-weight: bold;
-    text-align: center;
-    font-size: 25px;
-}
-.col-5{
-    width: 19%;
-    height: 350px;
-    display: inline-block;
-    margin: 5px 4px 0;
-    text-align: center;
-    background-color:peachpuff;
-}
-.service-content{
-    padding: 0.5em 0;
-}
-.service-text.memebers{
-    font-style: italic; 
-}
-.foto{
-    width: 50%;
-    padding: 0.25em 0;
-    border-radius: 50%;
-}
-.linea{
-    width: 75%;
-    margin-top: -15px;
-}
+
