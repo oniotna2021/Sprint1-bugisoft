@@ -23,7 +23,7 @@ header {
 }
 
 .menu {
-    width: 80%;
+    width: 100%;
     height: 100%;
     background-color: #ffcccb;
 }
@@ -132,7 +132,7 @@ ul, ol {
     text-decoration:none;
     padding:10px 12px;
     display:block;
-    margin-left: 40px;
+    margin-left: 10px;
 }
 
 .nav li a:hover {
@@ -143,7 +143,7 @@ ul, ol {
 .nav li ul {
     display:none;
     position:absolute;
-    min-width:140px;
+    min-width:120px;
 }
 
 .nav li:hover > ul {
