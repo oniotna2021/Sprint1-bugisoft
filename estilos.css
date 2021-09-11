@@ -169,8 +169,8 @@ footer{
 }
 
 .columna1{
-    width:600px; 
-    margin-left: 20px;
+    width:500px; 
+    margin-left: 10px;
 }
 
 .columna1 h1{
@@ -179,10 +179,15 @@ footer{
 
 .columna1 p{
     font-size: 15px;
+    text-align: justify;
 }
 
 .columna1 a{
     margin-left: 10px;
+}
+
+.columna2{
+    margin-left: 50px;
 }
 
 .columna2 h1{
