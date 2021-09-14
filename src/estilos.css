@@ -6,39 +6,48 @@ header {
 .MenuLogo {
     width: 100%;
     height: 80px;
-    background-color:blue;
     z-index: 5px;
     display: flex;
     flex-direction: row;
+    
 }
 
 .logo {
     width: 20%;
     height: 100%;
-    background-color:#b60428;
+    background-color:palevioletred;
     display: flex;
     flex-direction: row;
+    color: white;
+    
 }
 
 .menu {
-    width: 80%;
+    width: 100%;
     height: 100%;
     background-color: #ffcccb;
 }
 
-.texlogo{
-    padding-left: 20px;
+.texlogo {
+    
+    padding-left: 50px;
     padding-top: 20px;
     text-decoration:none;
     font-size: 40px;
-    font-family: -apple-system;
-    color: beige;
+
 }
 
 .imagen {
     width: 100%;
     height: 300px;
-    background-color:#ffaf96;
+    background-color:white;
+    margin-left: 5%;
+}
+
+.ciento {
+   
+    width: 95%;
+    height: 100%;
 }
 .servicios{
     width: 100%;
@@ -107,13 +116,6 @@ header {
     margin-top: 1%;
 }
 
-.snosotros{
-    width: 100%;
-    height: 400px;
-    background-color:#ffaf96;
-
-}
-
 ul, ol {
     list-style:none;
     text-transform: uppercase;
@@ -141,7 +143,7 @@ ul, ol {
 .nav li ul {
     display:none;
     position:absolute;
-    min-width:140px;
+    min-width:120px;
 }
 
 .nav li:hover > ul {
@@ -167,8 +169,8 @@ footer{
 }
 
 .columna1{
-    width:600px; 
-    margin-left: 20px;
+    width:500px; 
+    margin-left: 10px;
 }
 
 .columna1 h1{
@@ -177,10 +179,15 @@ footer{
 
 .columna1 p{
     font-size: 15px;
+    text-align: justify;
 }
 
 .columna1 a{
     margin-left: 10px;
+}
+
+.columna2{
+    margin-left: 50px;
 }
 
 .columna2 h1{
@@ -196,4 +203,38 @@ footer{
     margin-left: 20px;
 }
 
-
+.section-3{
+    height: 390px;
+    /*background-color:;*/
+}
+.section-text{
+    margin: 0;
+    color: #3e3e3e;
+    background: papayawhip;
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+}
+.col-5{
+    width: 19%;
+    height: 350px;
+    display: inline-block;
+    margin: 5px 4px 0;
+    text-align: center;
+    background-color:peachpuff;
+}
+.service-content{
+    padding: 0.5em 0;
+}
+.service-text.memebers{
+    font-style: italic; 
+}
+.foto{
+    width: 50%;
+    padding: 0.25em 0;
+    border-radius: 50%;
+}
+.linea{
+    width: 75%;
+    margin-top: -15px;
+}
