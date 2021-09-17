@@ -1,250 +1,245 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi primera pagina web</title>
-    <link rel="stylesheet" href="estilos.css">
-</head>
+header {
+    width:100% ;
+    height: 380px;   
+}
 
-
-<body>
-    <header>
-
-        <div class="MenuLogo">
+.MenuLogo {
+    width: 100%;
+    height: 80px;
+    z-index: 5px;
+    display: flex;
+    flex-direction: row;
     
-            <div class="logo">
-                <a class="texlogo" href="index.html" >BUG1S0FT</a>
+}
+
+.logo {
+    width: 20%;
+    height: 100%;
+    background-color:palevioletred;
+    display: flex;
+    flex-direction: row;
+    color: white;
     
-            </div>
+}
+
+.menu {
+    width: 100%;
+    height: 100%;
+    background-color: #ffcccb;
+}
+
+.texlogo {
     
-            <div class="menu">
-                <nav>
-                    <ul class="nav">
-                        <li><a href="#">Inicio</a></li>
-                        <li><a href="#services">servicios</a></li>
-                        <li><a href="#news">Noticias</a></li>
-                        <li><a href="#team">Sobre Nosotros</a></li>
-                        <li><a href="#Contact">Contactanos</a></li>
-                    </ul>
-                </nav>
-            </div>
-            
-        </div>   
+    padding-left: 4%;
+    padding-top: 20px;
+    text-decoration:none;
+    font-size: 40px;
 
-         <div class="imagen">
-            <img class="ciento" src="imagen.jpg" alt="banner bugisoft">
-        </div>
-        
-        
-    </header>
-    
- 
-    <Main>
-    <div id="services">
-        <div class="container1">
-            <h2>Servicios</h2>
-        </div>
-    </div>
+}
 
-    <section id="news" class="noticiascont">
-        <div class="container1" id="news">
-            <h2>Noticias sobre desarrollo web</h2>
-            <hr>
-           <div class="noticias"> 
-                <h3>Tendencias de diseño web para 2021</h3>
-                <img src="https://www.latevaweb.com/diseno-web/tendencias-disenno-2021-4.jpg">
-                <h4>-------------------------------------------------------------------</h4>
-                <p>¿Quieres descubrir cuáles seran las nuevas tendencias de este 2021?
-                     ¡No te dejes niguna por conocer!</p>
-                <a href="https://www.latevaweb.com/tendencias-disenno-2021"> Ver mas </a>
-            </div>
-            <div class="noticias"> 
-                <h3>¿Por qué contratar el mantenimiento de tu web?</h3>
-                <img src="https://www.latevaweb.com/diseno-web/contratar-mantenimiento-web.jpg">
-                <h4>-------------------------------------------------------------------</h4>
-                <p>¿Estás pensando en contratar el mantenimiento de tu web? 
-                    Te explicamos por qué es una buena elección para ti y 
-                    los aspectos que debes tener en cuenta.
-                </p>
-                <a href="https://www.latevaweb.com/contratar-mantenimiento-web"> Ver mas </a>
-            </div>
-            <div class="noticias"> 
-                <h3>Los 5 requisitos de un buen diseño web para ecommerce</h3>
-                <img src="https://www.latevaweb.com/diseno-web/diseno-web-ecommerce.png">
-                <h4>-------------------------------------------------------------------</h4>
-                <p>El diseño web es el elemento protagonista de cualquier ecommerce, 
-                    puesto que es necesario disponer de una página web que cumpla 
-                    con todos los elementos importantes para convertir una tienda 
-                    online en un espacio ideal para navegar y comprar por internet.
-                    Este artículo explica los 5 requisitos para crear un diseño.</p>
-                <a href="https://www.latevaweb.com/diseno-web-ecommerce"> Ver mas </a>
-            </div>
-            <div class="noticias"> 
-                <h3>Entrevista a Celeste, diseñadora de páginas web</h3>
-                <img src="https://www.latevaweb.com/diseno-web/entrevista-disenadora-web.png">
-                <h4>-------------------------------------------------------------------</h4>
-                <p>El diseño de las páginas web responde a la parte funcional, 
-                    la estética y el contexto en dónde nos encontremos, por eso, se ha 
-                    de ir actualizando los elementos gráficos con el fin de comunicar 
-                    una idea. Descubre todo lo que engloba el diseño de las
-                     páginas web con la entrevista a la diseñadora web Celeste.</p>
-                <a href="https://www.latevaweb.com/entrevista-disenadora-paginas-web"> Ver mas </a>
-            </div>
-    
-        </div>
-    </section>
+.imagen {
+    width: 100%;
+    height: 300px;
+    background-color:white;
+    margin-left: 5%;
+}
 
-    <section id="team" class="section-3">
-        <div class="container1">
-            <h2>Sobre nosotros</h2>
-        </div>
-        
-        <div class="col-5">
-          <p>
-            <img class="foto" src="Antonio2.jpg" alt="foto">
-          </p>
-          <div class="service-content">
-            <h2>Antonio Mogollon Miranda</h2>
-            <hr class="linea" color="blue" size=3>
-            <p class="service-text memebers">
-              Ingeniero en Sistemas <br>
-              Cartagena - Bolívar
-            </p>
-          </div>
-        </div>
-        <div class="col-5">
-          <p>
-            <img class="foto" src="Leidy.jpg" alt="foto">
-          </p>
-          <div class="service-content">
-            <h2>Leidy Dayana Ortega</h2>
-            <hr class="linea" color="blue" size=3>
-            <p class="service-text memebers">
-              Ingeniera de Software <br>
-              Gigante - Huila
-            </p>
-          </div>
-        </div>
-        <div class="col-5">
-          <p>
-            <img class="foto" src="Reyes.jpg" alt="foto">
-          </p>
-          <div class="service-content">
-            <h2>Cristian Camilo Reyes</h2>
-            <hr class="linea" color="blue" size=3>
-            <p class="service-text memebers">
-              Licenciado en Electrónica <br>
-              Ubaté - Cundinamarca
-            </p>
-          </div>
-        </div>
-        <div class="col-5">
-          <p>
-            <img class="foto" src="William.jpg" alt="foto">
-          </p>
-          <div class="service-content">
-            <h2>William Mendoza</h2>
-            <hr class="linea" color="blue" size=3>
-            <p class="service-text memebers">
-              Ingeniero Mecatrónico <br>
-              Pereira - Risaralda
-            </p>
-          </div>
-        </div>
-        <div class="col-5">
-          <p>
-            <img class="foto" src="Ruber.jpg" alt="foto">
-          </p>
-          <div class="service-content">
-            <h2>Ruber Hernan Sanchez</h2>
-            <hr class="linea" color="blue" size=3>
-            <p class="service-text memebers">
-               Docente <br>
-               Cali -Valle del Cauca
-            </p>
-          </div>
-        </div>
-      </section>
-
-</body>
-</Main>
-
-<footer>
+.ciento {
    
-    <div class = "columna1">
-        <h1>Informacion de la pagina</h1>
-        <p>
-            Como empresa de desarrollo web nos dedicamos a ofrecer asesorias en tu pagina web como 
-            estructura HTML, diseño CSS y javaScript, contomas con diferentes diseños base de paginas
-            para que no empieces desde cero, ademas de eso te estaremos mostrando las ultimas
-            tendicias en desarrollo web.
-        </p><br>
+    width: 95%;
+    height: 100%;
+}
+.servicios{
+    width: 100%;
+    height: 400px;
+    background-color: #c3663d;
+}
 
-        <img src="src/github-logo_icon-icons.com_73546.png"><a href="https://github.com/oniotna2021/Sprint1-bugisoft-src.git" target="_blank">Ir al repositorio GitHub</a>
-    </div>
+.noticiascont{
+    width: 100%;
+    height: 650px;
+    
+}
 
+.noticias{
+    width: 48%;
+    float: left;
+    background-color: antiquewhite;
+    border-style: outset;
+    margin-left:1%;
+    margin-top: 1%;
+    text-align: center;
+    border-radius: 5%;
+}
+.noticias img{
+    width: 30%;
+    border-radius: 50%;
+    border-color:black;
+    float: left;
+    margin-left: 1%;
+    margin-bottom: 3%;
+    
+}
 
-    <div class="columna2">
-        <h1>Contactos</h1>
-        <div class="item1">
-            <p>
-                Mienbro: Antonio Jose Mogollon Miranda<br>
-                Cargo: --------
-            </p>
+.noticias a:link, a:visited {
+    background-color: white;
+    color: black;
+    border: 2px solid saddlebrown;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 2%;
+  }
+  
+.noticias  a:hover, a:active {
+    background-color:salmon;
+  }
 
-            <p>
-                Mienbro: Leidy Dayana Ortega<br>
-                Cargo: --------
-            </p>
+.noticias p{
+    margin-left: 3%;
+    margin-right: 3%;
+}
 
-            <p>
-                Mienbro: Cristian Camilo Reyes<br>
-                Cargo: --------
-            </p>
-
-            <p>
-                Mienbro: William Guillermo Mendoza Mojica<br>
-                Cargo: --------
-            </p>
-
-            <p>
-                Mienbro: Ruber Hernan Sanchez<br>
-                Cargo: --------
-            </p>
-        </div>        
-
-        <div class="item2">
-            <p>
-                Celular: 321 725 8986<br>
-                Email: <a href="mailto:tonyusb@gmail.com?Subject=Interesado%20sobre%20las%20noticias%20web">tonyusb@gmail.com</a>
-            </p>
-
-            <p>
-                Celular: 322 330 1797<br>
-                Email: <a href="mailto:dayanatru28@gmail.com?Subject=Interesado%20sobre%20las%20noticias%20web">dayanatru28@gmail.com</a> 
-            </p>
-
-            <p>
-                Celular: 311 849 1797<br>
-                Email: <a href="mailto:camiloreyessena@gmail.com?Subject=Interesado%20sobre%20las%20noticias%20web">camiloreyessena@gmail.com</a>
-            </p>
-
-            <p>
-                Celular: 318 572 3561<br>
-                Email: <a href="mailto:william.mendoza@ustabuca.edu.co?Subject=Interesado%20sobre%20las%20noticias%20web">william.mendoza@ustabuca.edu.co</a>
-            </p>
-
-            <p>
-                Celular: ###########<br>
-                Email: --------
-            </p>
-        </div>
+.noticias h3{
+    text-transform: uppercase;
+    color: darkslategray;
+    text-shadow: 2px 2px 5px palevioletred;
+}
 
 
-    </div>
+.container1 h2{
+    background-color: palevioletred;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 1%;
+}
 
-</footer>
+ul, ol {
+    list-style:none;
+    text-transform: uppercase;
+    margin-left: 30%;
+    border-radius: 3px;   
+}
+
+.nav > li {
+    float:left;
+}
+
+.nav li a {
+    color: black;
+    text-decoration:none;
+    padding:10px 12px;
+    display:block;
+    margin-left: 10px;
+}
+
+.nav li a:hover {
+    background-color:#fea7a5; 
+    transform: scale(1.25);
+}
+
+.nav li ul {
+    display:none;
+    position:absolute;
+    min-width:120px;
+}
+
+.nav li:hover > ul {
+    display:block;
+}
+
+.nav li ul li {
+    position:relative;
+}
+
+.nav li ul li ul {
+    right:-140px;
+    top:0px;
+}
+
+
+
+footer{
+    margin-top: 20px;
+    width: 100%;    
+    background-color: rgb(231, 213, 213);
+    display: flex;
+    justify-content: center;
+}
+
+.columna1{
+    width:500px; 
+    margin-left: 10px;
+}
+
+.columna1 h1{
+    font-size: 25px;
+}
+
+.columna1 p{
+    font-size: 15px;
+    text-align: justify;
+}
+
+.columna1 a{
+    margin-left: 10px;
+}
+
+.columna2{
+    margin-left: 50px;
+}
+
+.columna2 h1{
+    font-size: 25px;
+}
+
+.item1{
+    float:left;
+}
+
+.item2{
+    float:left;
+    margin-left: 20px;
+}
+
+.section-3{
+    height: 390px;
+    /*background-color:;*/
+}
+.section-text{
+    margin: 0;
+    color: #3e3e3e;
+    background: papayawhip;
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+}
+.col-5{
+    width: 19%;
+    height: 350px;
+    display: inline-block;
+    margin: 5px 4px 0;
+    text-align: center;
+    background-color:peachpuff;
+}
+.service-content{
+    padding: 0.5em 0;
+}
+.service-text.memebers{
+    font-style: italic; 
+}
+.foto{
+    width: 50%;
+    padding: 0.25em 0;
+    border-radius: 50%;
+}
+.linea{
+    width: 75%;
+    margin-top: -15px;
+}
+
     
 
 
