@@ -30,7 +30,7 @@ header {
 
 .texlogo {
     
-    padding-left: 50px;
+    padding-left: 4%;
     padding-top: 20px;
     text-decoration:none;
     font-size: 40px;
@@ -162,6 +162,7 @@ ul, ol {
 
 
 footer{
+    margin-top: 20px;
     width: 100%;    
     background-color: rgb(231, 213, 213);
     display: flex;
