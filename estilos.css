@@ -2,6 +2,21 @@ header {
     width:100% ;
     height: 380px;   
 }
+h2{
+    background-color: palevioletred;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 1%;
+}
+
+ul, ol {
+    list-style:none;
+    text-transform: uppercase;
+    margin-left: 30%;
+    border-radius: 3px;   
+}
+/* Estilos de la barra de navegacion*/
 
 .MenuLogo {
     width: 100%;
@@ -49,16 +64,95 @@ header {
     width: 95%;
     height: 100%;
 }
-.servicios{
-    width: 100%;
-    height: 400px;
-    background-color: #c3663d;
+
+.nav > li {
+    float:left;
 }
 
+.nav li a {
+    color: black;
+    text-decoration:none;
+    padding:10px 12px;
+    display:block;
+    margin-left: 10px;
+}
+
+.nav li a:hover {
+    background-color:#fea7a5; 
+    transform: scale(1.25);
+}
+
+.nav li ul {
+    display:none;
+    position:absolute;
+    min-width:120px;
+}
+
+.nav li:hover > ul {
+    display:block;
+}
+
+.nav li ul li {
+    position:relative;
+}
+
+.nav li ul li ul {
+    right:-140px;
+    top:0px;
+}
+
+
+/* Estilos de la seccion Servicios*/
+
+.services{
+    width: 100%;
+    height: 450px;
+}
+
+.serv{
+    width: 31%;
+    height: auto;
+    float: left;
+    background-color: antiquewhite;
+    border-style: outset;
+    margin-left:1%;
+    margin-top: 1%;
+    text-align: center;
+    border-radius: 5%;
+   
+    
+}
+
+.serv img{
+    width: 27%;
+    border-radius: 50%;
+}
+
+.serv a:link, a:visited {
+    background-color: white;
+    color: black;
+    border: 2px solid saddlebrown;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 2%;
+  }
+  
+.serv a:hover, a:active {
+    background-color:salmon;
+  }
+
+.serv h3{
+    text-transform: uppercase;
+    color: darkslategray;
+    text-shadow: 2px 2px 5px palevioletred;
+}
+
+/* Estilos de la seccion Noticias*/
 .noticiascont{
     width: 100%;
-    height: 650px;
-    
+    height: 550px;    
 }
 
 .noticias{
@@ -107,60 +201,45 @@ header {
     text-shadow: 2px 2px 5px palevioletred;
 }
 
+/* Estilos de la seccion Equipo*/
 
-.container1 h2{
-    background-color: palevioletred;
-    color: white;
-    text-transform: uppercase;
+.section-3{
+    height: 390px;
+    /*background-color:;*/
+}
+.section-text{
+    margin: 0;
+    color: #3e3e3e;
+    background: papayawhip;
+    font-weight: bold;
     text-align: center;
-    margin-top: 1%;
+    font-size: 25px;
+}
+.col-5{
+    width: 19%;
+    height: 350px;
+    display: inline-block;
+    margin: 5px 4px 0;
+    text-align: center;
+    background-color:peachpuff;
+}
+.service-content{
+    padding: 0.5em 0;
+}
+.service-text.memebers{
+    font-style: italic; 
+}
+.foto{
+    width: 50%;
+    padding: 0.25em 0;
+    border-radius: 50%;
+}
+.linea{
+    width: 75%;
+    margin-top: -15px;
 }
 
-ul, ol {
-    list-style:none;
-    text-transform: uppercase;
-    margin-left: 30%;
-    border-radius: 3px;   
-}
-
-.nav > li {
-    float:left;
-}
-
-.nav li a {
-    color: black;
-    text-decoration:none;
-    padding:10px 12px;
-    display:block;
-    margin-left: 10px;
-}
-
-.nav li a:hover {
-    background-color:#fea7a5; 
-    transform: scale(1.25);
-}
-
-.nav li ul {
-    display:none;
-    position:absolute;
-    min-width:120px;
-}
-
-.nav li:hover > ul {
-    display:block;
-}
-
-.nav li ul li {
-    position:relative;
-}
-
-.nav li ul li ul {
-    right:-140px;
-    top:0px;
-}
-
-
-
+/* Estilos del footer */
 footer{
     margin-top: 20px;
     width: 100%;    
@@ -204,38 +283,13 @@ footer{
     margin-left: 20px;
 }
 
-.section-3{
-    height: 390px;
-    /*background-color:;*/
-}
-.section-text{
-    margin: 0;
-    color: #3e3e3e;
-    background: papayawhip;
-    font-weight: bold;
-    text-align: center;
-    font-size: 25px;
-}
-.col-5{
-    width: 19%;
-    height: 350px;
-    display: inline-block;
-    margin: 5px 4px 0;
-    text-align: center;
-    background-color:peachpuff;
-}
-.service-content{
-    padding: 0.5em 0;
-}
-.service-text.memebers{
-    font-style: italic; 
-}
-.foto{
-    width: 50%;
-    padding: 0.25em 0;
-    border-radius: 50%;
-}
-.linea{
-    width: 75%;
-    margin-top: -15px;
-}
+/* Estilos responsive */
+@media (max-width: 575px) {
+    .services{
+        height: 600px;
+    }
+    .noticiascont{
+        height: 1550px;    
+    }
+
+  }
