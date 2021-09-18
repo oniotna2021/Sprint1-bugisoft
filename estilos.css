@@ -2,6 +2,21 @@ header {
     width:100% ;
     height: 380px;   
 }
+h2{
+    background-color: palevioletred;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 1%;
+}
+
+ul, ol {
+    list-style:none;
+    text-transform: uppercase;
+    margin-left: 30%;
+    border-radius: 3px;   
+}
+/* Estilos de la barra de navegacion*/
 
 .MenuLogo {
     width: 100%;
@@ -49,16 +64,56 @@ header {
     width: 95%;
     height: 100%;
 }
+
+.nav > li {
+    float:left;
+}
+
+.nav li a {
+    color: black;
+    text-decoration:none;
+    padding:10px 12px;
+    display:block;
+    margin-left: 10px;
+}
+
+.nav li a:hover {
+    background-color:#fea7a5; 
+    transform: scale(1.25);
+}
+
+.nav li ul {
+    display:none;
+    position:absolute;
+    min-width:120px;
+}
+
+.nav li:hover > ul {
+    display:block;
+}
+
+.nav li ul li {
+    position:relative;
+}
+
+.nav li ul li ul {
+    right:-140px;
+    top:0px;
+}
+
+
+/* Estilos de la seccion Servicios*/
+
 .servicios{
     width: 100%;
     height: 400px;
     background-color: #c3663d;
 }
 
+/* Estilos de la seccion Noticias*/
 .noticiascont{
     width: 100%;
-    height: 650px;
-    
+    height: 550px;    
 }
 
 .noticias{
@@ -108,59 +163,7 @@ header {
 }
 
 
-.container1 h2{
-    background-color: palevioletred;
-    color: white;
-    text-transform: uppercase;
-    text-align: center;
-    margin-top: 1%;
-}
-
-ul, ol {
-    list-style:none;
-    text-transform: uppercase;
-    margin-left: 30%;
-    border-radius: 3px;   
-}
-
-.nav > li {
-    float:left;
-}
-
-.nav li a {
-    color: black;
-    text-decoration:none;
-    padding:10px 12px;
-    display:block;
-    margin-left: 10px;
-}
-
-.nav li a:hover {
-    background-color:#fea7a5; 
-    transform: scale(1.25);
-}
-
-.nav li ul {
-    display:none;
-    position:absolute;
-    min-width:120px;
-}
-
-.nav li:hover > ul {
-    display:block;
-}
-
-.nav li ul li {
-    position:relative;
-}
-
-.nav li ul li ul {
-    right:-140px;
-    top:0px;
-}
-
-
-
+/* Estilos del footer */
 footer{
     margin-top: 20px;
     width: 100%;    
@@ -203,6 +206,8 @@ footer{
     float:left;
     margin-left: 20px;
 }
+
+/* Estilos de la seccion Equipo*/
 
 .section-3{
     height: 390px;
