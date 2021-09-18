@@ -162,6 +162,43 @@ ul, ol {
     text-shadow: 2px 2px 5px palevioletred;
 }
 
+/* Estilos de la seccion Equipo*/
+
+.section-3{
+    height: 390px;
+    /*background-color:;*/
+}
+.section-text{
+    margin: 0;
+    color: #3e3e3e;
+    background: papayawhip;
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+}
+.col-5{
+    width: 19%;
+    height: 350px;
+    display: inline-block;
+    margin: 5px 4px 0;
+    text-align: center;
+    background-color:peachpuff;
+}
+.service-content{
+    padding: 0.5em 0;
+}
+.service-text.memebers{
+    font-style: italic; 
+}
+.foto{
+    width: 50%;
+    padding: 0.25em 0;
+    border-radius: 50%;
+}
+.linea{
+    width: 75%;
+    margin-top: -15px;
+}
 
 /* Estilos del footer */
 footer{
@@ -207,40 +244,4 @@ footer{
     margin-left: 20px;
 }
 
-/* Estilos de la seccion Equipo*/
 
-.section-3{
-    height: 390px;
-    /*background-color:;*/
-}
-.section-text{
-    margin: 0;
-    color: #3e3e3e;
-    background: papayawhip;
-    font-weight: bold;
-    text-align: center;
-    font-size: 25px;
-}
-.col-5{
-    width: 19%;
-    height: 350px;
-    display: inline-block;
-    margin: 5px 4px 0;
-    text-align: center;
-    background-color:peachpuff;
-}
-.service-content{
-    padding: 0.5em 0;
-}
-.service-text.memebers{
-    font-style: italic; 
-}
-.foto{
-    width: 50%;
-    padding: 0.25em 0;
-    border-radius: 50%;
-}
-.linea{
-    width: 75%;
-    margin-top: -15px;
-}
