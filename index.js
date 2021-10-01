@@ -20,6 +20,7 @@ const pintarInfo = info => {
     menu2 = document.getElementById('menu2');
     menu3 = document.getElementById('menu3');
     menu4 = document.getElementById('menu4');
+      img1 = document.getElementById('img1');
     
 
    
@@ -30,6 +31,7 @@ const pintarInfo = info => {
     menu2.children[0].innerText= info.navbar[0].caso2;
     menu3.children[0].innerText= info.navbar[0].caso3;
     menu4.children[0].innerText= info.navbar[0].caso4;
+    img1.children[0].src = info.navbar[0].caso5;
    
     
 
