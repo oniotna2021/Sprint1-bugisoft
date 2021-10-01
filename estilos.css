@@ -1,6 +1,15 @@
+.nav a{
+    color: white !important;
+    font-size: 1.8em !important;
+}
+
 header {
     width:100% ;
     height: 380px;   
+}
+
+.black{
+    color: black;
 }
 /* h2{
     background-color: palevioletred;
@@ -30,17 +39,17 @@ ul, ol {
 .logo {
     width: 20%;
     height: 100%;
-    background-color:palevioletred;
+    
     display: flex;
     flex-direction: row;
-    color: white;
+    
     
 }
 
 .menu {
     width: 100%;
     height: 100%;
-    background-color: #ffcccb;
+   
 }
 
 .texlogo {
@@ -54,7 +63,7 @@ ul, ol {
 
 .imagen {
     width: 100%;
-    height: 300px;
+    height: auto;
     background-color:white;
     margin-left: 5%;
 }
@@ -163,11 +172,12 @@ ul, ol {
 
 /* Estilos del footer */
 footer{
-    margin-top: 20px;
+    margin-top: 80%;
     width: 100%;    
     background-color: rgb(231, 213, 213);
     display: flex;
     justify-content: center;
+    color: azure;
 }
 
 .columna1{
