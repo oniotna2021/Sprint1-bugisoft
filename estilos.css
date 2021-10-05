@@ -170,17 +170,16 @@ ul, ol {
     margin-top: -15px;
 }
 
-/* Estilos del footer */
+/* Estilos del footer
 footer{
-    margin-top: 80%;
     width: 100%;    
     background-color: rgb(231, 213, 213);
     display: flex;
     justify-content: center;
     color: azure;
-}
+} */
 
-.columna1{
+/* .columna1{
     width:500px; 
     margin-left: 10px;
 }
@@ -213,7 +212,7 @@ footer{
 .item2{
     float:left;
     margin-left: 20px;
-}
+} */
 
 /* Estilos responsive */
 @media (max-width: 575px) {
