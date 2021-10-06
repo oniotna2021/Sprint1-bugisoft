@@ -113,7 +113,7 @@ ul, ol {
 /*Estilos Servicios*/
 
 .imagenCarrusel{
-    height: 500px;
+    height: 450px;
     background-size: cover;
 }
 
@@ -170,49 +170,7 @@ ul, ol {
     margin-top: -15px;
 }
 
-/* Estilos del footer
-footer{
-    width: 100%;    
-    background-color: rgb(231, 213, 213);
-    display: flex;
-    justify-content: center;
-    color: azure;
-} */
 
-/* .columna1{
-    width:500px; 
-    margin-left: 10px;
-}
-
-.columna1 h1{
-    font-size: 25px;
-}
-
-.columna1 p{
-    font-size: 15px;
-    text-align: justify;
-}
-
-.columna1 a{
-    margin-left: 10px;
-}
-
-.columna2{
-    margin-left: 50px;
-}
-
-.columna2 h1{
-    font-size: 25px;
-}
-
-.item1{
-    float:left;
-}
-
-.item2{
-    float:left;
-    margin-left: 20px;
-} */
 
 /* Estilos responsive */
 @media (max-width: 575px) {
