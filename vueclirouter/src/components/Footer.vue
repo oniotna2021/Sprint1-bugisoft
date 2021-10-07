@@ -92,14 +92,10 @@
         </div>
     </div>
       <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
-        <!--<img src="./src/img/github-logo_icon-icons.com_73546.png" /><a
-          class="text-light text-center"
+        <img src="https://github.com/oniotna2021/Sprint1-bugisoft-src/blob/main/src/img/github-logo_icon-icons.com_73546.png?raw=true" />
+        <a class="text-light text-center"
           href="https://github.com/oniotna2021/Sprint1-bugisoft-src.git"
-          target="_blank"
-        >
-          Ir al repositorio GitHub</a
-        > 
-        -->
+          target="_blank"> Ir al repositorio GitHub</a > 
       </div>
     </footer>
   </div>
