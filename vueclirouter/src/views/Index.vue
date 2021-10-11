@@ -2,8 +2,7 @@
   <div>
     <Main>
       <!--Seccion de servicios-->
-    <hr class="bg-dark">
-    <h2 class="text-center bg-secondary fw-bold super-container text-white">SERVICIOS</h2>
+    <h2 class="text-center bg-secondary fw-bold super-container text-white" id="services">SERVICIOS</h2>
     <div id="services" class="container">
       <div class="container">
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
@@ -190,7 +189,7 @@ import Footer from "../components/Footer.vue";
 // @ is an alias to /src
 
 export default {
-  components: { Footer },
+  components: { Footer},
   name: "index",
 };
 </script>
@@ -199,7 +198,7 @@ export default {
 /*Estilos Servicios*/
 
 .imagenCarrusel{
-    height: 450px;
+    height: 400px;
     background-size: cover;
 }
 
